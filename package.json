@@ -1,0 +1,23 @@
+{
+  "name": "ieee-reader",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Добавляет методы readReal48LE и readExtendedLE в тип Buffer NodeJS для считывания 6 байтовых и 10 байтовых вещественных чисел.",
+  "main": "dist/index.js",
+  "author": {
+    "name": "yolik"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
+    "eslint": "^6.7.2",
+    "typescript": "^3.7.2"
+  },
+  "typings": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "link": "npm link"
+  }
+}
