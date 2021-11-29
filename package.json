@@ -17,7 +17,6 @@
   "typings": "dist/types/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch",
-    "link": "npm link"
+    "watch": "tsc --watch"
   }
 }
